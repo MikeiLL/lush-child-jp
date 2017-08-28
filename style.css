@@ -1,0 +1,83 @@
+/**
+ * Theme Name:  Lush Child - Music Band & Musician WordPress Theme
+ * Theme URI:   http://irontemplates.com/wp-demos/lush/
+ * Description: Lush a complete solution for everybody in the music industry. If you are a jazz master, punk rocker, soprano singer, piano player, band manager or even a webmaster, this theme is for you.
+ * Tags:        3d menu, music, blog, artist, musician, dj, club, responsive, html5, css3, design, irontemplates, ironband, lush 
+ *
+ * Author:      IronTemplates
+ * Author URI:  http://irontemplates.com
+ *
+ * Version:     1.0.0
+ * Template:    lush
+ * Text Domain: lush-child
+ *
+ * License:     GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ */
+ 
+ @import url("../lush/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.menu-item-2620 {
+	text-transform: lowercase;
+}
+
+.concerts-list {
+	color: #666 !important;
+	background: inherit;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.2rem;
+}
+
+
+.menu-item-2624 a:hover {
+	cursor: none;
+}
+
+.menu-item-2624 a {
+	cursor: none;
+	text-align: left;
+	margin-left: 2em;
+	border-top: 1px solid #fff;
+}
+
+.no-touch .nav-menu li.menu-item-2624:hover > a {
+	background-color: #353535;
+	color: #fff;
+}
+
+.fa-bars--grey {
+	color: #666 !important;
+}
+
+.entry-margin {
+	margin-left: 25% !important;
+}
+
+@media (min-width: 36em) {
+	.entry-margin {
+		margin-left: 20% !important;
+	}
+	
+	.concerts-list {
+		font-size: 1.6rem;
+		line-height: 1.6rem;
+	}
+}
+
+@media (min-width: 60em) {
+	.entry-margin {
+		margin-left: 10% !important;
+	}
+	
+	.concerts-list {
+		font-size: 1.9rem;
+		line-height: 1.9rem;
+	}
+}
+
+ 
