@@ -59,7 +59,7 @@
 								
 								<tr>
 									<td class="event-icon"><i class="fa fa-calendar"></i></td>
-									<td><?php echo the_modified_date('l, F j, Y'); ?></td>
+									<td><?php echo get_the_date('l, F j, Y'); ?></td>
 								</tr>
 								
 								<?php if( !empty($showtime) ) { ?>

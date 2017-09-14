@@ -21,7 +21,7 @@ if((!empty($events_filter) && $events_filter == 'past') || (!empty($wp_query->qu
 	<!-- title-row -->
 	<div class="title-row <?php echo ((!empty($show_countdown)) ? 'has_countdown' : '')?>">
 		<div class="event-centering">
-			<time class="datetime" datetime="<?php echo get_the_time('c'); ?>"><?php echo the_modified_date('l, F j, Y'); ?></time>
+			<time class="datetime" datetime="<?php echo get_the_time('c'); ?>"><?php echo get_the_date('l, F j, Y'); ?></time>
 			<div class="event-text-wrap">
 				<span class="location"><?php the_title(); ?></span>
 				
