@@ -35,7 +35,19 @@
 
 .about-content-container p {
     margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    width: 30em;
+    font-size: .85rem;  
+    line-height: .85rem;
 }
+.about-content-container p:first-of-type {
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 25.4em;
+}
+
 .about-content-container img.size-medium {
     max-width: 38%;
     height: auto;
@@ -65,6 +77,28 @@
 	margin-left: 25% !important;
 }
 
+@media (min-width: 20em) {
+	.entry-margin {
+		margin-left: 20% !important;
+	}
+	
+	.concerts-list {
+		font-size: 1.6rem;
+		line-height: 1.6rem;
+	}
+	.about-content-container p {
+        width: 30em;
+        max-width: 85%;
+        font-size: 1.1rem;  
+        line-height: 1.2rem;
+    }
+    .about-content-container p:first-of-type {
+        font-size: 1.25rem;
+        line-height: 1.4rem;
+        width: 26em;
+    }
+}
+
 @media (min-width: 36em) {
 	.entry-margin {
 		margin-left: 20% !important;
@@ -75,16 +109,15 @@
 		line-height: 1.6rem;
 	}
 	.about-content-container p {
-        margin-left: auto;
-        margin-right: auto;
         max-width: 75%;
-        width: 27.8em;
-        font-size: 1.3rem;  
-        line-height: 1.8rem;
+        width: 30em;
+        font-size: 1.25rem;  
+        line-height: 1.4rem;
     }
     .about-content-container p:first-of-type {
-        font-size: 1.5rem;
-        width: 24em;
+        font-size: 1.45rem;
+        line-height: 1.6rem;
+        width: 26em;
     }
 }
 
