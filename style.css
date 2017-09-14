@@ -48,6 +48,10 @@
     width: 25.4em;
 }
 
+.about-content-container p:last-of-type {
+    margin-bottom: 3rem;
+}
+
 .about-content-container img.size-medium {
     max-width: 38%;
     height: auto;
