@@ -10,12 +10,6 @@
 			<span class="heading-t"></span>
 				<h1>Discography</h1>
 			<span class="heading-b"></span>
-		
-		<?php else: ?>
-			
-			<div class="heading-space"></div>
-			
-		<?php endif; ?>
 
 <?php
 		list( $has_sidebar, $sidebar_position, $sidebar_area ) = setup_dynamic_sidebar( $post->ID );
