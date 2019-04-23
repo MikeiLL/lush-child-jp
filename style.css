@@ -21,6 +21,10 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+.event-text-wrap span.city {
+    color: #824d03 !important;
+}
+
 .menu-item-2620 {
 	text-transform: lowercase;
 }
